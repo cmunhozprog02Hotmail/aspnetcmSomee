@@ -5,7 +5,9 @@ using System.Web;
 
 namespace aspnetcmSomee.Models
 {
-    public class Contato
+    public class Contato            
     {
+        public int ContatoID { get; set; }
+        public string Nome { get; set; }
     }
 }
